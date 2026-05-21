@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware for parsing JSON
 app.use(express.json());
 app.get('/', (req, res) => {
-    res.send('API REST de usuarios funcionando correctamente');
+    res.send('API REST de usuarios funcionando correctamente DE LOPEZ YAPU MARCO');
 });
 // User class
 class User {
