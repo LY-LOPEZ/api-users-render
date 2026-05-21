@@ -2,11 +2,13 @@
 
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware for parsing JSON
 app.use(express.json());
-
+app.get('/', (req, res) => {
+    res.send('API REST de usuarios funcionando correctamente');
+});
 // User class
 class User {
     constructor(id, name, username, email, password, updatedAt, image, rol) {
