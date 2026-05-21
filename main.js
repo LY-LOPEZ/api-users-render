@@ -37,9 +37,8 @@ class User {
 
 // In-memory data
 let users = [
-    new User(1, 'John Doe', 'johndoe', 'john@example.com', 'password123', new Date(), 'john.jpg', 'admin'),
-    new User(2, 'Jane Smith', 'janesmith', 'jane@example.com', 'password123', new Date(), 'jane.jpg', 'user'),
-    new User(3, 'Robert Brown', 'robbrown', 'robert@example.com', 'password123', new Date(), 'robert.jpg', 'user')
+
+    new User(1, 'LOPEZ YAPU MARCO', 'marco_lopez', 'marco@example.com', '123456', new Date(), 'marco.jpg', 'ING SISTEMAS')
 ];
 
 // CRUD Endpoints
